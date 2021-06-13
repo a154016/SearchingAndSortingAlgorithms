@@ -3,4 +3,22 @@
   <groupId>com.ashish.learning</groupId>
   <artifactId>SearchingAndSortingM</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-</project>
+
+<build>
+ <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>2.4</version>
+            <configuration>
+                <archive>
+                    <index>true</index>
+                    <manifest>
+                        <mainClass>com.ashish.learning.interview.JavaObjectSorting</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+     </plugins>
+     </build>
+     </project>
